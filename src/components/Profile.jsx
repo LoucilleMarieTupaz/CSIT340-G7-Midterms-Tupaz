@@ -22,7 +22,10 @@ function Profile() {
     return (
         <div className="flex items-end justify-between bg-[#F5E7C6] px-20 py-10">
         <div>
-          <Bio/>
+          <Bio
+                name = 'LOUCILLE MARIE B. TUPAZ'
+                username = '@LoucilleMarieTupaz'
+          />
           <div className="mt-6 flex gap-6">
             <StatCard
                 value = {followers}
